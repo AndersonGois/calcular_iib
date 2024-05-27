@@ -1432,3 +1432,44 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product
 
 !ENTRY org.eclipse.core.resources 4 374 2024-05-27 19:11:23.538
 !MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 19:45:18.451
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fd481bee} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@33049d40}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 19:45:18.454
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@db4104df} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7094faa}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 19:58:10.338
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1f328d98} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a63a9a81}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 19:58:10.341
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@39771af9} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bde7f64c}
+
+!ENTRY org.eclipse.jface 2 0 2024-05-27 20:01:49.623
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 20:01:49.623
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(com.ibm.etools.mft.fcb.action.DrillDown,Open Subflow,
+		Opens a subflow file,
+		Category(com.ibm.etools.mft.fcb.category.MessageFlowEditor,Message Flow Editor,Message Flow Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3e14798f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.etools.mft.fcb.context.MessageFlowEditor,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@20e92f07,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bcaebe14,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)

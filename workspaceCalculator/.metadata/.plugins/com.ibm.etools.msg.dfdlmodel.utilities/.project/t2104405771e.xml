@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="CalcularCommonSh"/>
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="CalcularCommonSh">
+  <XSDCollection href="platform:/resource/CalcularCommonSh/Calculator.xsd" prefix="tns" targetNamespace="http://tempuri.org/"/>
+  <XSDCollection href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd" prefix="tns" targetNamespace="http://tempuri.org/">
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//Add;XSDElementDeclaration" name="Add"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//AddResponse;XSDElementDeclaration=1" name="AddResponse"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//Subtract;XSDElementDeclaration=2" name="Subtract"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//SubtractResponse;XSDElementDeclaration=3" name="SubtractResponse"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//Multiply;XSDElementDeclaration=4" name="Multiply"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//MultiplyResponse;XSDElementDeclaration=5" name="MultiplyResponse"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//Divide;XSDElementDeclaration=6" name="Divide"/>
+    <element href="platform:/resource/CalcularCommonSh/Calculator_InlineSchema1.xsd#//DivideResponse;XSDElementDeclaration=7" name="DivideResponse"/>
+  </XSDCollection>
+</MessageBroker>
