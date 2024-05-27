@@ -13,11 +13,4 @@
     <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/XSD/calcular/v1/Calcular.xsd#//CalcularRequestType;XSDComplexTypeDefinition" name="CalcularRequestType"/>
     <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/XSD/calcular/v1/Calcular.xsd#//CalcularResponseType;XSDComplexTypeDefinition=1" name="CalcularResponseType"/>
   </XSDCollection>
-  <XSDCollection href="platform:/resource/CalcularSh/IBMdefined/soap.xsd" prefix="" targetNamespace="">
-    <element href="platform:/resource/CalcularSh/IBMdefined/soap.xsd#//SOAP_Domain_Msg;XSDElementDeclaration" name="SOAP_Domain_Msg" type="mlib://CalcularSh#/-/complexType{}SOAP_Msg_type"/>
-    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/IBMdefined/soap.xsd#//MIME_Headers_type;XSDComplexTypeDefinition" name="MIME_Headers_type"/>
-    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/IBMdefined/soap.xsd#//Attachment_type;XSDComplexTypeDefinition=1" name="Attachment_type"/>
-    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/IBMdefined/soap.xsd#//SOAP_Msg_type;XSDComplexTypeDefinition=2" name="SOAP_Msg_type"/>
-    <group href="platform:/resource/CalcularSh/IBMdefined/soap.xsd#//MIME_header_fields;XSDModelGroupDefinition" name="MIME_header_fields"/>
-  </XSDCollection>
 </MessageBroker>

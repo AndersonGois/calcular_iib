@@ -9,16 +9,16 @@
       <nodes xmi:type="eflow:FCMSource" xmi:id="InTerminal.in" location="30,277">
         <translation xmi:type="utility:TranslatableString" key="InTerminal.in" bundleName="gen/CalcularSh/GrcCalculator_Calcular2" pluginId="CalcularSh"/>
       </nodes>
-      <nodes xmi:type="eflow:FCMSink" xmi:id="OutTerminal.SomarRequest" location="536,293">
+      <nodes xmi:type="eflow:FCMSink" xmi:id="OutTerminal.SomarRequest" location="668,293">
         <translation xmi:type="utility:TranslatableString" key="OutTerminal.SomarRequest" bundleName="gen/CalcularSh/GrcCalculator_Calcular2" pluginId="CalcularSh"/>
       </nodes>
       <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="146,277" mappingExpression="msl://{gen.CalcularSh}#GrcCalculator_calcular_Mapping">
         <translation xmi:type="utility:ConstantString" string="Mapping"/>
       </nodes>
-      <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="418,289" mappingExpression="msl://{gen.CalcularSh}#GrcCalculator_calcular_Mapping1">
+      <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="505,289" mappingExpression="msl://{gen.CalcularSh}#GrcCalculator_calcular_Mapping1">
         <translation xmi:type="utility:ConstantString" string="Mapping1"/>
       </nodes>
-      <nodes xmi:type="gen_gen_CalcularSh_Add_Calculator_GrcCalculator_Calcular2.subflow:FCMComposite_1" xmi:id="FCMComposite_1_1" location="270,281">
+      <nodes xmi:type="gen_gen_CalcularSh_Add_Calculator_GrcCalculator_Calcular2.subflow:FCMComposite_1" xmi:id="FCMComposite_1_1" location="260,415">
         <translation xmi:type="utility:ConstantString" string="Add_Calculator"/>
         <shortDescription xmi:type="utility:ConstantString" string="Invokes WSDL operation and extracts the response from SOAP message."/>
         <longDescription xmi:type="utility:ConstantString" string="This subflow invokes the WSDL operation and extracts message body from the response message."/>
