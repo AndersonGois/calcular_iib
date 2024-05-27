@@ -10,6 +10,7 @@
 	<wsdl:types>
 		
         	<xsd:schema elementFormDefault="qualified" targetNamespace="http://webservice.calcular.agr.com.br/Calcular/v1" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions">
+
 <xsd:include schemaLocation="GrcCalculator_InlineSchema1.xsd"/>
     </xsd:schema>
     </wsdl:types>

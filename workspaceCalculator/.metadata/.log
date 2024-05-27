@@ -1426,3 +1426,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product
 
 !ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.238
 !MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 19:11:23.536
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 19:11:23.538
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
