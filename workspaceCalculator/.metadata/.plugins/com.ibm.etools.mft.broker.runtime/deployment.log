@@ -1,0 +1,102 @@
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1711018993951
+2871<<Administration Result<<2024-03-21 08:03:19.968 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>ICATU.QM1.NODE1>>default>>0>>1711126445061
+2871<<Administration Result<<2024-03-22 13:54:10.741 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+calcular.bar>>ICATU.QM1.NODE1>>default>>0>>1711126752364
+2871<<Administration Result<<2024-03-22 13:59:17.719 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716833789665
+2871<<Administration Result<<2024-05-27 15:16:38.287 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>default>>2>>1716837464475
+2087<<Runtime Response<<2024-05-27 16:17:45.318 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:17:45.318 BRT<<default<<28f204ec-2ae2-4e99-bb5e-6ec0096bbf47
+1302<<Runtime Response<<2024-05-27 16:17:45.318 BRT<<CalcularSh<<CalcularCommonSh<<CalcularSh
+2871<<Administration Result<<2024-05-27 16:17:45.318 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<default<<ExecutionGroup<<FAILED
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716837579338
+2871<<Administration Result<<2024-05-27 16:19:42.348 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716838447863
+2871<<Administration Result<<2024-05-27 16:34:15.064 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716838717796
+2871<<Administration Result<<2024-05-27 16:38:42.701 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716838722965
+2871<<Administration Result<<2024-05-27 16:38:49.179 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716838729331
+2871<<Administration Result<<2024-05-27 16:38:54.381 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>2>>1716839220349
+2087<<Runtime Response<<2024-05-27 16:47:09.012 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:47:09.012 BRT<<SERVER_Anderson<<de01dafa-223b-42bf-889d-6c4f1dd58933
+4050<<Runtime Response<<2024-05-27 16:47:09.012 BRT<<ws_SomarRequest
+2871<<Administration Result<<2024-05-27 16:47:09.012 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<FAILED
+CalcularCommonSh>>TESTNODE_Anderson>>default>>0>>1716839265496
+2871<<Administration Result<<2024-05-27 16:47:47.414 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>default>>0>>1716839267811
+2871<<Administration Result<<2024-05-27 16:47:50.034 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>default>>2>>1716839270387
+2087<<Runtime Response<<2024-05-27 16:47:50.627 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:47:50.627 BRT<<default<<28f204ec-2ae2-4e99-bb5e-6ec0096bbf47
+4050<<Runtime Response<<2024-05-27 16:47:50.627 BRT<<ws_SomarRequest
+2871<<Administration Result<<2024-05-27 16:47:50.627 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<default<<ExecutionGroup<<FAILED
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>2>>1716839868563
+2087<<Runtime Response<<2024-05-27 16:57:50.130 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:57:50.130 BRT<<SERVER_Anderson<<de01dafa-223b-42bf-889d-6c4f1dd58933
+4050<<Runtime Response<<2024-05-27 16:57:50.131 BRT<<ws_SomarRequest
+2871<<Administration Result<<2024-05-27 16:57:50.131 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<FAILED
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716839948382
+2871<<Administration Result<<2024-05-27 16:59:09.366 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716839949648
+2871<<Administration Result<<2024-05-27 16:59:10.302 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>2>>1716839950525
+2087<<Runtime Response<<2024-05-27 16:59:10.719 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:59:10.719 BRT<<SERVER_Anderson<<de01dafa-223b-42bf-889d-6c4f1dd58933
+4050<<Runtime Response<<2024-05-27 16:59:10.719 BRT<<ws_SomarRequest
+2871<<Administration Result<<2024-05-27 16:59:10.720 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<FAILED
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716839963254
+2871<<Administration Result<<2024-05-27 16:59:24.490 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716839964511
+2871<<Administration Result<<2024-05-27 16:59:24.978 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>2>>1716839974844
+2087<<Runtime Response<<2024-05-27 16:59:35.080 BRT<<TESTNODE_Anderson<<fe1988bb-ad5f-4e3c-a633-8b2c1378a642
+4041<<Runtime Response<<2024-05-27 16:59:35.080 BRT<<SERVER_Anderson<<de01dafa-223b-42bf-889d-6c4f1dd58933
+4050<<Runtime Response<<2024-05-27 16:59:35.080 BRT<<ws_SomarRequest
+2871<<Administration Result<<2024-05-27 16:59:35.080 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<FAILED
+CalcularCommonSh>>TESTNODE_Anderson>>default>>0>>1716840171388
+2871<<Administration Result<<2024-05-27 17:02:52.985 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>default>>0>>1716840173168
+2871<<Administration Result<<2024-05-27 17:02:53.866 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>default>>0>>1716840173993
+2871<<Administration Result<<2024-05-27 17:02:54.918 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716840428746
+2871<<Administration Result<<2024-05-27 17:07:09.740 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716840766890
+2871<<Administration Result<<2024-05-27 17:12:53.110 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716840773227
+2871<<Administration Result<<2024-05-27 17:12:59.145 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716840779235
+2871<<Administration Result<<2024-05-27 17:13:04.285 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716841040476
+2871<<Administration Result<<2024-05-27 17:17:23.844 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842053441
+2871<<Administration Result<<2024-05-27 17:34:16.091 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842056273
+2871<<Administration Result<<2024-05-27 17:34:22.377 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842062572
+2871<<Administration Result<<2024-05-27 17:34:27.620 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842146477
+2871<<Administration Result<<2024-05-27 17:35:52.193 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularCommonSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842370060
+2871<<Administration Result<<2024-05-27 17:39:33.080 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularCommonShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842373326
+2871<<Administration Result<<2024-05-27 17:39:39.194 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+Calcular>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842379362
+2871<<Administration Result<<2024-05-27 17:39:44.386 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/Calcularproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842538173
+2871<<Administration Result<<2024-05-27 17:42:21.389 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+CalcularSh>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842736260
+2871<<Administration Result<<2024-05-27 17:46:08.641 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/GeneratedBarFiles/CalcularShproject.generated.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716842810774
+2871<<Administration Result<<2024-05-27 17:46:56.709 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716843573122
+2871<<Administration Result<<2024-05-27 17:59:35.533 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716844236367
+2871<<Administration Result<<2024-05-27 18:10:42.431 BRT<<AGR\Anderson<<deploy<<C:/Users/Anderson/IBM/IIBT10/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE
+calcular.bar>>TESTNODE_Anderson>>SERVER_Anderson>>0>>1716847136114
+2871<<Administration Result<<2024-05-27 18:59:03.830 BRT<<AGR\Anderson<<deploy<<D:/Arquivos/ARQUIVO/DESENVOLVIMENTO/IIB/calcular_iib/workspaceCalculator/BARfiles/calcular.bar<<BAR<<SERVER_Anderson<<ExecutionGroup<<COMPLETE

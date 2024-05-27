@@ -1,0 +1,10 @@
+
+
+Importing file: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\GrcCalculator.wsdl
+
+
+The following is a list of WS-I warning messages found when importing:
+XSD: The location 'XSD/calcular/v1/Calcular.xsd' has not been resolved because the import is unused, Line: 13, Column: 1
+
+
+The WSDL import will proceed with bindings GerenciaCalcularSOAP.

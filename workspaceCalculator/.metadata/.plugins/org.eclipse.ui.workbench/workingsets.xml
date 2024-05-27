@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711015078755_1" label="[Calcular]" name="[Calcular]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Calcular" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711015423787_2" label="[CalcularSh]" name="[CalcularSh]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CalcularSh" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711015606965_4" label="[CalcularCommonSh]" name="[CalcularCommonSh]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CalcularCommonSh" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711014307209_0" label="Window Working Set" name="Aggregate for window 1711014307209"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711123699836_4" label="Window Working Set" name="Aggregate for window 1711123699836"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1711126384967_5" label="Window Working Set" name="Aggregate for window 1711126384967"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716823063414_6" label="Window Working Set" name="Aggregate for window 1716823063414"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716846567341_7" label="Window Working Set" name="Aggregate for window 1716846567341"/>
+</workingSetManager>

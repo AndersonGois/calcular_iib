@@ -1,0 +1,1428 @@
+!SESSION 2024-03-21 06:44:59.133 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -data C:\Users\Anderson\IBM\IIBT10\workspaceCalculator -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-21 06:45:01.399
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-03-21 06:45:04.600
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-21 06:45:04.604
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-21 06:45:04.605
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 06:45:05.492
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 06:45:05.493
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-21 06:45:07.658
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-21 06:45:07.660
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-03-21 06:45:07.857
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-21 06:45:08.525
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-21 06:45:08.526
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-21 06:45:08.528
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 06:58:00.371
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 06:58:00.372
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-03-21 07:11:28.359
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:28.769
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:28.771
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.330
+!MESSAGE NLS unused message: GenMsgModel_MsgModel_Progress in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.331
+!MESSAGE NLS unused message: GenMsgModel_NewWizard_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.332
+!MESSAGE NLS unused message: GenMsgModel_NewWizard_Desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.333
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.334
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.335
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_help in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.336
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_CreationType_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:56.337
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_CreationType_desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.584
+!MESSAGE NLS unused message: REMOTE_RESOURCE_DOWNLOADING in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.585
+!MESSAGE NLS unused message: DOWNLOADED_RESOURCE_EMPTY in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.587
+!MESSAGE NLS missing message: IMPORT_SAVE_URL in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.588
+!MESSAGE NLS missing message: IMPORT_SAVE_URLTREE_TOOLTIP in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.588
+!MESSAGE NLS missing message: IMPORT_SAVE_FILEPATH_LABEL in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-21 07:11:57.589
+!MESSAGE NLS missing message: IMPORT_SAVE_EDIT in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.573
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.575
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.576
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.577
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.578
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.579
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-03-21 07:44:43.579
+!MESSAGE Resource '/Calcular/gen/GrcCalculator_Calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2024-03-21 07:57:40.675
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8a6b4a6e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@98095c2e}
+
+!ENTRY org.eclipse.ui 4 4 2024-03-21 07:57:40.677
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b45ff9bc} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@56af27f}
+
+!ENTRY org.eclipse.ui 4 4 2024-03-21 07:59:24.298
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@547f85ec} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bf6897bf}
+
+!ENTRY org.eclipse.ui 4 4 2024-03-21 07:59:24.300
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@292ac5dc} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@196c9259}
+!SESSION 2024-03-22 13:08:11.506 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -data C:\Users\Anderson\IBM\IIBT10\workspaceCalculator -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-22 13:08:13.328
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:08:15.106
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:08:15.108
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:08:15.109
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-03-22 13:08:15.509
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:08:17.002
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:08:17.003
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:08:17.819
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:08:17.820
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:08:20.179
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:08:20.180
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-03-22 13:08:20.354
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:08:20.586
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:08:20.588
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:08:20.590
+!MESSAGE 
+!SESSION 2024-03-22 13:52:57.385 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -data C:\Users\Anderson\IBM\IIBT10\workspaceCalculator -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-22 13:52:59.015
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:53:00.658
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:53:00.661
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-03-22 13:53:00.662
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-03-22 13:53:01.063
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:02.680
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:02.681
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:03.246
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:03.247
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-03-22 13:53:05.098
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:53:05.201
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:53:05.202
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:53:05.474
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:53:05.476
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-03-22 13:53:05.477
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:43.296
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-03-22 13:53:43.297
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+!SESSION 2024-05-27 12:17:27.839 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-27 12:17:31.147
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 12:17:34.348
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 12:17:34.351
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 12:17:34.353
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-05-27 12:17:34.974
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 12:17:38.286
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 12:17:38.288
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 12:17:39.770
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 12:17:39.772
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-05-27 12:17:43.914
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 12:17:43.994
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 12:17:43.998
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 12:17:44.785
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 12:17:44.788
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 12:17:44.793
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 12:38:41.881
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e35dc360} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6191c4a6}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 12:38:41.884
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a022fa7c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@eb4c756e}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 12:53:19.313
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@56d07ad5} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fba8545}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 12:53:19.315
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@81e80e98} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@3b6f6c5}
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:16:09.088
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:16:09.115
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 15:40:55.982
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 15:40:55.984
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 15:41:35.054
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8ad519d1} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@acce296}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 15:41:35.055
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b1876482} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@67840d90}
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.350
+!MESSAGE NLS unused message: GenMsgModel_MsgModel_Progress in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.351
+!MESSAGE NLS unused message: GenMsgModel_NewWizard_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.352
+!MESSAGE NLS unused message: GenMsgModel_NewWizard_Desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.353
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.354
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.356
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_MsgModelType_help in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.357
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_CreationType_title in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:45.358
+!MESSAGE NLS unused message: GenMsgModel_WizardPage_CreationType_desc in: com.ibm.etools.msg.importer.framework.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.571
+!MESSAGE NLS unused message: REMOTE_RESOURCE_DOWNLOADING in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.572
+!MESSAGE NLS unused message: DOWNLOADED_RESOURCE_EMPTY in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.573
+!MESSAGE NLS missing message: IMPORT_SAVE_URL in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.574
+!MESSAGE NLS missing message: IMPORT_SAVE_URLTREE_TOOLTIP in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.576
+!MESSAGE NLS missing message: IMPORT_SAVE_FILEPATH_LABEL in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 15:50:49.577
+!MESSAGE NLS missing message: IMPORT_SAVE_EDIT in: com.ibm.etools.msg.importer.wsdl.messages
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-05-27 16:04:25.394
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2547)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:124)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:81)
+	at sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 48 more
+Caused by: java.lang.IndexOutOfBoundsException: fromIndex = -1
+	at java.util.ArrayList.subListRangeCheck(ArrayList.java:972)
+	at java.util.ArrayList.subList(ArrayList.java:966)
+	at com.ibm.etools.mft.esql.editor.contentassist.EsqlContentAssistProcessor.getRDBExpressionList(EsqlContentAssistProcessor.java:1434)
+	at com.ibm.etools.mft.esql.editor.contentassist.EsqlContentAssistProcessor.addRDBProposals(EsqlContentAssistProcessor.java:847)
+	at com.ibm.etools.mft.esql.editor.contentassist.EsqlContentAssistProcessor.getProposals(EsqlContentAssistProcessor.java:616)
+	at com.ibm.etools.mft.esql.editor.contentassist.EsqlContentAssistProcessor.computeCompletionProposals(EsqlContentAssistProcessor.java:355)
+	at com.ibm.etools.mft.esql.editor.contentassist.EsqlContentAssistProcessor.computeCompletionProposals(EsqlContentAssistProcessor.java:262)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:1839)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:566)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:563)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:498)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:492)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1665)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:932)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:128)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:126)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	... 53 more
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 16:06:05.395
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@aefc3e7e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d10748d1}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 16:06:05.397
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@384809f7} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@2f8bf3}
+
+!ENTRY org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+ARROW_UP:
+Binding(CTRL+ARROW_UP,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.moveCastUpCommand,Move up,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@88cda2ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.scroll.lineUp,Scroll Line Up,
+		Scroll up one line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.userDefinedMoveUpCommand,Move element up,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b2755004,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9b0789ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+ARROW_DOWN:
+Binding(CTRL+ARROW_DOWN,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.moveCastDownCommand,Move down,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a5045e62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.scroll.lineDown,Scroll Line Down,
+		Scroll down one line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.openIOCommand,Open Declaration,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7a611593,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7857d0b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d48ed42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+J:
+Binding(CTRL+J,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.mapCommand,Map,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9387ceb5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Incremental Find,
+		Incremental find,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f561d5cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+L:
+Binding(CTRL+L,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.QuickLinkFromInputCommand,Quick Link from Input,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ab62c3df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+L,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.goto.line,Go to Line,
+		Go to a specified line of text,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16426275,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+SHIFT+X:
+Binding(CTRL+SHIFT+X,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.associateXMLCommand,Associate XML,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ce903db2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+SHIFT+X,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.upperCase,To Upper Case,
+		Changes the selection to upper case,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@eb48d1f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.934
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.showQuickOutlineViewCommand,Quick Outline,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13c8acfe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3b297910,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.935
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.userDefinedMoveDownCommand,Move element down,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@80f3d00a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@942a29cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:06:27.935
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.xml.ui.userDefinedCreateCommand,Add User-Defined,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@96044bc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fb0db1a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2024-05-27 16:07:42.131
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:07:42.131
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.ibm.etools.mft.esql.editor.contentFormatter,Format,
+		Format the selected code,
+		Category(com.ibm.etools.mft.esql.editor.category,ESQL Editing,Integration Toolkit ESQL Editor Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d31be0a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.etools.mft.esql.editor.context,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1636a20d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 16:07:42.131
+!MESSAGE A conflict occurred for CTRL+SHIFT+A:
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(com.ibm.etools.mft.esql.editor.addSchemaPath,Add Schema Path,
+		Adds a path statement on selection,
+		Category(com.ibm.etools.mft.esql.editor.category,ESQL Editing,Integration Toolkit ESQL Editor Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3777aef6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.etools.mft.esql.editor.context,,,system)
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(org.eclipse.pde.ui.openPluginArtifact,Open Plug-in Artifact,
+		Open a plug-in artifact in the manifest editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@40c90ca6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.search.find.occurrences,Occurrences in File,
+		Find occurrences of the selection in the file,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ed587d3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.core.resources 4 1 2024-05-27 16:08:04.222
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:108)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:60)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:311)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:251)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:218)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at com.ibm.etools.mft.navigator.resource.actions.ResourceActionGroup.updateActionBars(ResourceActionGroup.java:1675)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer$SelectionListener.selectionChanged(ResourceTreeViewer.java:390)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer.fireSelectionChanged(ResourceTreeViewer.java:627)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2024-05-27 16:08:04.222
+!MESSAGE Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+
+!ENTRY org.eclipse.core.resources 4 1 2024-05-27 16:08:04.225
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:108)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:60)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:311)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:251)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:218)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at com.ibm.etools.mft.navigator.resource.actions.ResourceActionGroup.updateActionBars(ResourceActionGroup.java:1675)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer$SelectionListener.selectionChanged(ResourceTreeViewer.java:390)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer.fireSelectionChanged(ResourceTreeViewer.java:627)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2024-05-27 16:08:04.226
+!MESSAGE Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+
+!ENTRY org.eclipse.core.resources 4 1 2024-05-27 16:08:04.228
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:108)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:60)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:311)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:251)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:218)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at com.ibm.etools.mft.navigator.resource.actions.ResourceActionGroup.updateActionBars(ResourceActionGroup.java:1675)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer$SelectionListener.selectionChanged(ResourceTreeViewer.java:390)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer.fireSelectionChanged(ResourceTreeViewer.java:627)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2024-05-27 16:08:04.228
+!MESSAGE Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+
+!ENTRY org.eclipse.core.resources 4 1 2024-05-27 16:08:04.230
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:108)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:60)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:311)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:251)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:218)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at com.ibm.etools.mft.navigator.resource.actions.ResourceActionGroup.updateActionBars(ResourceActionGroup.java:1675)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer$SelectionListener.selectionChanged(ResourceTreeViewer.java:390)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer.fireSelectionChanged(ResourceTreeViewer.java:627)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2024-05-27 16:08:04.230
+!MESSAGE Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+
+!ENTRY org.eclipse.core.resources 4 1 2024-05-27 16:08:04.232
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:108)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:60)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:311)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:251)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:218)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at com.ibm.etools.mft.navigator.resource.actions.ResourceActionGroup.updateActionBars(ResourceActionGroup.java:1675)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer$SelectionListener.selectionChanged(ResourceTreeViewer.java:390)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at com.ibm.etools.mft.navigator.resource.viewer.ResourceTreeViewer.fireSelectionChanged(ResourceTreeViewer.java:627)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2024-05-27 16:08:04.233
+!MESSAGE Resource is out of sync with the file system: '/CalcularSh/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd'.
+
+!ENTRY com.ibm.etools.mft.bar 4 4 2024-05-27 16:17:44.280
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.ibm.etools.mft.bar.util.BrokerArchiveUtil.copyFile(BrokerArchiveUtil.java:319)
+	at com.ibm.etools.mft.bar.compiler.WorkspaceFileCopyCompiler.addToBarFile(WorkspaceFileCopyCompiler.java:98)
+	at com.ibm.etools.mft.bar.compiler.xsdwsdl.XSDWSDLCompiler.addToBarFile(XSDWSDLCompiler.java:42)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at com.ibm.etools.mft.bar.compiler.library.ApplicationAddOperation.runExecute(ApplicationAddOperation.java:41)
+	at com.ibm.etools.mft.bar.compiler.library.LibraryCompiler.addToBarFile(LibraryCompiler.java:224)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.ibm.etools.mft.bar.internal.model.BrokerArchiveIOFile.addEntry(BrokerArchiveIOFile.java:1617)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.generateBarFile(BrokerRuntimeManager.java:695)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1786)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1780)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.DeployStep.run(DeployStep.java:90)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.Step.execute(Step.java:48)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.runStep(StepEngine.java:106)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.run(StepEngine.java:70)
+!SUBENTRY 1 org.eclipse.core.resources 4 271 2024-05-27 16:17:44.281
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd.
+
+!ENTRY com.ibm.etools.mft.bar 4 4 2024-05-27 16:17:44.285
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.ibm.etools.mft.bar.util.BrokerArchiveUtil.copyFile(BrokerArchiveUtil.java:319)
+	at com.ibm.etools.mft.bar.compiler.WorkspaceFileCopyCompiler.addToBarFile(WorkspaceFileCopyCompiler.java:98)
+	at com.ibm.etools.mft.bar.compiler.xsdwsdl.XSDWSDLCompiler.addToBarFile(XSDWSDLCompiler.java:42)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at com.ibm.etools.mft.bar.compiler.library.ApplicationAddOperation.runExecute(ApplicationAddOperation.java:41)
+	at com.ibm.etools.mft.bar.compiler.library.LibraryCompiler.addToBarFile(LibraryCompiler.java:224)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.ibm.etools.mft.bar.internal.model.BrokerArchiveIOFile.addEntry(BrokerArchiveIOFile.java:1617)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.generateBarFile(BrokerRuntimeManager.java:695)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1786)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1780)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.DeployStep.run(DeployStep.java:90)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.Step.execute(Step.java:48)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.runStep(StepEngine.java:106)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.run(StepEngine.java:70)
+!SUBENTRY 1 org.eclipse.core.resources 4 271 2024-05-27 16:17:44.285
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd.
+
+!ENTRY com.ibm.etools.mft.bar 4 4 2024-05-27 16:17:44.288
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\soap.xsd.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\soap.xsd.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.ibm.etools.mft.bar.util.BrokerArchiveUtil.copyFile(BrokerArchiveUtil.java:319)
+	at com.ibm.etools.mft.bar.compiler.WorkspaceFileCopyCompiler.addToBarFile(WorkspaceFileCopyCompiler.java:98)
+	at com.ibm.etools.mft.bar.compiler.xsdwsdl.XSDWSDLCompiler.addToBarFile(XSDWSDLCompiler.java:42)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at com.ibm.etools.mft.bar.compiler.library.ApplicationAddOperation.runExecute(ApplicationAddOperation.java:41)
+	at com.ibm.etools.mft.bar.compiler.library.LibraryCompiler.addToBarFile(LibraryCompiler.java:224)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.barGeneratorDelegate(AddToBARFileOperation.java:743)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.processDeployables(AddToBARFileOperation.java:475)
+	at com.ibm.etools.mft.bar.internal.model.AddToBARFileOperation.execute(AddToBARFileOperation.java:653)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.ibm.etools.mft.bar.internal.model.BrokerArchiveIOFile.addEntry(BrokerArchiveIOFile.java:1617)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.generateBarFile(BrokerRuntimeManager.java:695)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1786)
+	at com.ibm.etools.mft.broker.runtime.model.BrokerRuntimeManager.deployAppOrLib(BrokerRuntimeManager.java:1780)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.DeployStep.run(DeployStep.java:90)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.Step.execute(Step.java:48)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.runStep(StepEngine.java:106)
+	at com.ibm.etools.mft.broker.runtime.wizards.steps.StepEngine.run(StepEngine.java:70)
+!SUBENTRY 1 org.eclipse.core.resources 4 271 2024-05-27 16:17:44.288
+!MESSAGE File not found: C:\Users\Anderson\IBM\IIBT10\workspaceCalculator\CalcularSh\IBMdefined\soap.xsd.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-05-27 16:51:40.702
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalAccessError: The 'eObject' parameter is not attached to an XMIResource
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2547)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: java.lang.IllegalAccessError: The 'eObject' parameter is not attached to an XMIResource
+	at com.ibm.etools.eflow.model.MOF.getID(MOF.java:1708)
+	at com.ibm.etools.eflow.model.MOF.getTerminalID(MOF.java:1134)
+	at com.ibm.etools.eflow.impl.TerminalToTerminalLinkImpl.setTargetTerminal(TerminalToTerminalLinkImpl.java:188)
+	at com.ibm.etools.fcb.commands.FCBUpdateConnectionTargetCommand.move(FCBUpdateConnectionTargetCommand.java:159)
+	at com.ibm.etools.fcb.commands.FCBUpdateConnectionTargetCommand.undo(FCBUpdateConnectionTargetCommand.java:220)
+	at org.eclipse.gef.commands.CommandStack.undo(CommandStack.java:395)
+	at com.ibm.etools.gef.emf.commands.VCMAwareCommandStack.undo(VCMAwareCommandStack.java:160)
+	at org.eclipse.gef.ui.actions.UndoAction.run(UndoAction.java:94)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:81)
+	at sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 48 more
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:01:17.386
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/GrcCalculator_calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:01:17.389
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/GrcCalculator_calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:01:17.391
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/GrcCalculator_calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:01:17.393
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/GrcCalculator_calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:01:17.395
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/GrcCalculator_calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-27 17:02:26.928
+!MESSAGE Resource '/CalcularSh/CalcularSh/calcular.subflow' does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 17:29:33.540
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@166371cf} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fc956ff1}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 17:29:33.542
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@3ea4bcc3} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f0593bd2}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 17:32:19.556
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e770431f} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9903faff}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-27 17:32:19.558
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1f6dbdb2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@85e328f6}
+
+!ENTRY org.eclipse.debug.core 4 2 2024-05-27 17:44:18.675
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.mft.debug.utils.MBDebugUtils.hasChannelBreakpoint(MBDebugUtils.java:246)
+	at com.ibm.etools.mft.debug.internal.comm.MBCommMessageListener.filterDebugEvent(MBCommMessageListener.java:112)
+	at com.ibm.etools.mft.debug.internal.comm.MBCommMessageListener.filterDebugEvents(MBCommMessageListener.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1127)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-05-27 17:44:18.682
+!MESSAGE An exception occurred while filtering debug events.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.mft.debug.utils.MBDebugUtils.hasChannelBreakpoint(MBDebugUtils.java:246)
+	at com.ibm.etools.mft.debug.internal.comm.MBCommMessageListener.filterDebugEvent(MBCommMessageListener.java:112)
+	at com.ibm.etools.mft.debug.internal.comm.MBCommMessageListener.filterDebugEvents(MBCommMessageListener.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1127)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jface 2 0 2024-05-27 17:53:08.770
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 17:53:08.770
+!MESSAGE A conflict occurred for F5:
+Binding(F5,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.refreshViewCommand,Refresh,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b7bbaf49,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.StepInto,Step Into,
+		Step into,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1143b623,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.ui.file.refresh,Refresh,
+		Refresh the selected items,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b7578c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-27 17:53:08.770
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.QuickLinkToOutputCommand,Quick Link to Output,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fd809d96,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18319bff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2024-05-27 18:05:21.376
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: com.ibm.etools.eflow.impl.FCMSourceImpl incompatible with com.ibm.etools.eflow.FCMBlock
+	at com.ibm.etools.mft.flow.editor.MFTResourceTransferDropTargetListener.isTargetContributedNode(MFTResourceTransferDropTargetListener.java:434)
+	at com.ibm.etools.mft.flow.editor.MFTResourceTransferDropTargetListener.canDrop(MFTResourceTransferDropTargetListener.java:308)
+	at com.ibm.etools.mft.flow.editor.MFTResourceTransferDropTargetListener.handleEnteredEditPart(MFTResourceTransferDropTargetListener.java:171)
+	at com.ibm.etools.mft.flow.editor.MFTResourceTransferDropTargetListener.updateTargetRequest(MFTResourceTransferDropTargetListener.java:213)
+	at org.eclipse.gef.dnd.AbstractTransferDropTargetListener.isEnabled(AbstractTransferDropTargetListener.java:396)
+	at org.eclipse.jface.util.DelegatingDropAdapter.updateCurrentListener(DelegatingDropAdapter.java:365)
+	at org.eclipse.jface.util.DelegatingDropAdapter.dragOver(DelegatingDropAdapter.java:182)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget.DragOver_64(DropTarget.java:340)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:252)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$000(DragSource.java:102)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2024-05-27 18:48:38.525 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-27 18:49:15.902
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-27 18:49:16.465
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 18:49:19.299
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 18:49:19.303
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-27 18:49:19.304
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-05-27 18:49:19.999
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:49:22.819
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:49:22.821
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:49:23.924
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:49:23.926
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-05-27 18:49:27.606
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 18:49:27.808
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 18:49:27.811
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 18:49:28.310
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 18:49:28.315
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-27 18:49:28.319
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:50:17.591
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-27 18:50:17.593
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.215
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.231
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.233
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.236
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.
+
+!ENTRY org.eclipse.core.resources 4 374 2024-05-27 18:50:19.238
+!MESSAGE Resource '/CalcularSh/IBMdefined' already exists.

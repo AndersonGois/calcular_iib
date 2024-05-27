@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="CalcularSh">
+  <XSDCollection href="platform:/resource/CalcularSh/GrcCalculator_InlineSchema1.xsd" prefix="tns" targetNamespace="http://webservice.calcular.agr.com.br/Calcular/v1">
+    <import name="XSD/calcular/v1/Calcular.xsd" targetNamespace="http://canonico.calcular.agr.com.br"/>
+    <element href="platform:/resource/CalcularSh/GrcCalculator_InlineSchema1.xsd#//SomarRequest;XSDElementDeclaration" name="SomarRequest" type="mlib://CalcularSh#/-/complexType{http://webservice.calcular.agr.com.br/Calcular/v1}SomarRequestType"/>
+    <element href="platform:/resource/CalcularSh/GrcCalculator_InlineSchema1.xsd#//SomarResponse;XSDElementDeclaration=1" name="SomarResponse" type="mlib://CalcularSh#/-/complexType{http://webservice.calcular.agr.com.br/Calcular/v1}SomarResponseType"/>
+    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/GrcCalculator_InlineSchema1.xsd#//SomarRequestType;XSDComplexTypeDefinition" name="SomarRequestType"/>
+    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/GrcCalculator_InlineSchema1.xsd#//SomarResponseType;XSDComplexTypeDefinition=1" name="SomarResponseType"/>
+  </XSDCollection>
+  <XSDCollection href="platform:/resource/CalcularSh/GrcCalculator.xsd" prefix="tns" targetNamespace="http://webservice.calcular.agr.com.br/Calcular/v1">
+    <include name="/CalcularSh/GrcCalculator_InlineSchema1.xsd" targetNamespace="http://webservice.calcular.agr.com.br/Calcular/v1"/>
+  </XSDCollection>
+  <XSDCollection href="platform:/resource/CalcularSh/XSD/calcular/v1/Calcular.xsd" prefix="use" targetNamespace="http://canonico.calcular.agr.com.br">
+    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/XSD/calcular/v1/Calcular.xsd#//CalcularRequestType;XSDComplexTypeDefinition" name="CalcularRequestType"/>
+    <complexType baseType="mlib://CalcularSh#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/CalcularSh/XSD/calcular/v1/Calcular.xsd#//CalcularResponseType;XSDComplexTypeDefinition=1" name="CalcularResponseType"/>
+  </XSDCollection>
+</MessageBroker>

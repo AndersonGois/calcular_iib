@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="gen.CalcularSh" version="8.0.5.0" xmlns:map="gen.CalcularSh">
+    <input path="mbsharedlib://CalcularCommonSh/Calculator_InlineSchema1.xsd"/>
+    <output path="/GrcCalculator_InlineSchema1.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="GrcCalculator_calcular_Mapping1">
+        <input namespace="http://tempuri.org/" path="mb:msg(AddResponse,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_AddResponse"/>
+        <output namespace="http://webservice.calcular.agr.com.br/Calcular/v1" path="mb:msg(SomarResponse,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_SomarResponse"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_AddResponse/Properties"/>
+            <output path="$ComIbmMessageAssembly_SomarResponse/Properties"/>
+            <override>
+                <assign value="{CalcularSh}">
+                    <output path="$ComIbmMessageAssembly_SomarResponse/Properties/MessageSet"/>
+                </assign>
+            </override>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>
