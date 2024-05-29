@@ -1,0 +1,5 @@
+#Tue May 28 10:28:20 BRT 2024
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=Terminal Selection

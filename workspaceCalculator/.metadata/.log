@@ -1473,3 +1473,765 @@ Binding(F3,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY com.ibm.etools.mft.debug.esql 4 0 2024-05-28 09:39:32.534
+!MESSAGE can not get breakpoint marker.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CalcularSh/gen/CalcularSh/CalcularCommonSh_Compute.esql' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1039)
+	at com.ibm.etools.mft.debug.esql.actions.ManageBreakpointRulerAction.getMarkers(ManageBreakpointRulerAction.java:245)
+	at com.ibm.etools.mft.debug.esql.actions.ManageBreakpointRulerAction.update(ManageBreakpointRulerAction.java:180)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.update(AbstractRulerActionDelegate.java:132)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.setActiveEditor(AbstractRulerActionDelegate.java:89)
+	at com.ibm.etools.mft.debug.esql.actions.ManageBreakpointRulerActionDelegate.setActiveEditor(ManageBreakpointRulerActionDelegate.java:51)
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:75)
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83)
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:129)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:345)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:275)
+	at org.eclipse.ui.internal.WorkbenchPage.access$15(WorkbenchPage.java:257)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:186)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:190)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:595)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:548)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$ActivationJob.run(StackRenderer.java:216)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-05-28 09:39:32.536
+!MESSAGE Resource '/CalcularSh/gen/CalcularSh/CalcularCommonSh_Compute.esql' does not exist.
+
+!ENTRY org.eclipse.help 4 0 2024-05-28 10:28:08.689
+!MESSAGE Error reading help table of contents file /"org.aspectj.ajde/toc_ajprogguide.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:669)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:619)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:322)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:708)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContextAsHelpTray(DefaultHelpUI.java:427)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:348)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:905)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:142)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:153)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:382)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:289)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.pickTerminal(FCMControlConnectionCreationTool.java:217)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.updateCreationCommand(FCMControlConnectionCreationTool.java:184)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.handleButtonDown(FCMControlConnectionCreationTool.java:159)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1091)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.mouseDown(FCMControlConnectionCreationTool.java:310)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:245)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:348)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:523)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.help 4 0 2024-05-28 10:28:08.692
+!MESSAGE Error reading help table of contents file /"org.aspectj.ajde/toc_ajdevguide.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:669)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:619)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:322)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:708)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContextAsHelpTray(DefaultHelpUI.java:427)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:348)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:905)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:142)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:153)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:382)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:289)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.pickTerminal(FCMControlConnectionCreationTool.java:217)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.updateCreationCommand(FCMControlConnectionCreationTool.java:184)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.handleButtonDown(FCMControlConnectionCreationTool.java:159)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1091)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.mouseDown(FCMControlConnectionCreationTool.java:310)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:245)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:348)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:523)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.help 4 0 2024-05-28 10:28:08.693
+!MESSAGE Error reading help table of contents file /"org.aspectj.ajde/toc_adk15notebook.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:669)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:619)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:322)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:708)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContextAsHelpTray(DefaultHelpUI.java:427)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:348)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:905)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:142)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:153)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:382)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:289)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.pickTerminal(FCMControlConnectionCreationTool.java:217)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.updateCreationCommand(FCMControlConnectionCreationTool.java:184)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.handleButtonDown(FCMControlConnectionCreationTool.java:159)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1091)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.mouseDown(FCMControlConnectionCreationTool.java:310)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:245)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:348)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:523)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.help 4 0 2024-05-28 10:28:08.695
+!MESSAGE Error reading help table of contents file /"org.aspectj.ajde/toc_ajpdguide.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:669)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:619)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:322)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:708)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContextAsHelpTray(DefaultHelpUI.java:427)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:348)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:905)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:142)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:153)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:382)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:289)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.pickTerminal(FCMControlConnectionCreationTool.java:217)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.updateCreationCommand(FCMControlConnectionCreationTool.java:184)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.handleButtonDown(FCMControlConnectionCreationTool.java:159)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1091)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.mouseDown(FCMControlConnectionCreationTool.java:310)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:245)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:348)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:523)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.help.base 4 0 2024-05-28 10:28:08.760
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Fim de arquivo prematuro.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:102)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:669)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:619)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:322)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:708)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContextAsHelpTray(DefaultHelpUI.java:427)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:348)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:905)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:142)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:153)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:382)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:289)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.pickTerminal(FCMControlConnectionCreationTool.java:217)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.updateCreationCommand(FCMControlConnectionCreationTool.java:184)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.handleButtonDown(FCMControlConnectionCreationTool.java:159)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1091)
+	at com.ibm.etools.fcb.tools.FCMControlConnectionCreationTool.mouseDown(FCMControlConnectionCreationTool.java:310)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:245)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:348)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:523)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1054)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:943)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:88)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:620)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.help.base 4 0 2024-05-28 10:28:20.235
+!MESSAGE Internal error while reading search results from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Fim de arquivo prematuro.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.eclipse.help.internal.base.remote.RemoteSearchParser.parse(RemoteSearchParser.java:49)
+	at org.eclipse.help.internal.base.remote.RemoteSearchManager.search(RemoteSearchManager.java:74)
+	at org.eclipse.help.internal.search.SearchManager$SearchState$2.run(SearchManager.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.ibm.etools.mft.debug 4 8 2024-05-28 10:39:24.174
+!MESSAGE org.eclipse.core.runtime.CoreException: Attach to server at AGR:7801 failed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Attach to server at AGR:7801 failed.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:134)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.jvmAttach(LaunchUtils.java:105)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.createJavaDebugTarget(LaunchUtils.java:55)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.doCreateWSAJavaDebugTarget(WSAJavaDebugTarget.java:732)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.createWSAJavaDebugTarget(WSAJavaDebugTarget.java:675)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:177)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:188)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.wsalaunch(MBLaunchConfigurationDelegate.java:118)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.launch(MBLaunchConfigurationDelegate.java:83)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.Exception: Connection could not be established.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:132)
+	... 13 more
+Contains: This can occur for one or more of these reasons:
+Contains: The host name and/or port are incorrect.
+Contains: The server on AGR is not started in debug mode.
+Contains: Communication timeouts in the Debug preferences (under the Java node in the Preferences dialog box) are not long enough.
+Contains: The state of port 7801 on AGR must be LISTENING. If the state of the port is ESTABLISHED, then another debug session is already connected to the port.
+Contains: The "netstat" command line tool can be used to determine port status.
+Contains: A firewall is interfering with the connection.
+Contains: Ensure that these settings are properly made before attempting to attach to the server.
+!SUBENTRY 1 com.ibm.debug.wsa 4 100 2024-05-28 10:39:24.175
+!MESSAGE Attach to server at AGR:7801 failed.
+!STACK 0
+java.lang.Exception: Connection could not be established.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:132)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.jvmAttach(LaunchUtils.java:105)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.createJavaDebugTarget(LaunchUtils.java:55)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.doCreateWSAJavaDebugTarget(WSAJavaDebugTarget.java:732)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.createWSAJavaDebugTarget(WSAJavaDebugTarget.java:675)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:177)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:188)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.wsalaunch(MBLaunchConfigurationDelegate.java:118)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.launch(MBLaunchConfigurationDelegate.java:83)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE This can occur for one or more of these reasons:
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE The host name and/or port are incorrect.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE The server on AGR is not started in debug mode.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE Communication timeouts in the Debug preferences (under the Java node in the Preferences dialog box) are not long enough.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE The state of port 7801 on AGR must be LISTENING. If the state of the port is ESTABLISHED, then another debug session is already connected to the port.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE The "netstat" command line tool can be used to determine port status.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE A firewall is interfering with the connection.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.175
+!MESSAGE Ensure that these settings are properly made before attempting to attach to the server.
+
+!ENTRY com.ibm.etools.mft.debug 4 8 2024-05-28 10:39:24.177
+!MESSAGE The flow engine has been attached to another debug session, or 
+ The flow engine is not listening on the specified port, or 
+ The Broker is not running, or 
+ Timeout occurred while connecting
+
+Resolution:
+ Assign a different debug port to the flow engine and restart the Broker, and 
+ Ensure the flow engine is running and listening on the specified port, and 
+ Ensure the broker is running or 
+ Increase the timeout setting in the Preference page
+!STACK 1
+org.eclipse.core.runtime.CoreException: Attach to server at AGR:7801 failed.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:134)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.jvmAttach(LaunchUtils.java:105)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.createJavaDebugTarget(LaunchUtils.java:55)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.doCreateWSAJavaDebugTarget(WSAJavaDebugTarget.java:732)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.createWSAJavaDebugTarget(WSAJavaDebugTarget.java:675)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:177)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:188)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.wsalaunch(MBLaunchConfigurationDelegate.java:118)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.launch(MBLaunchConfigurationDelegate.java:83)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.Exception: Connection could not be established.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:132)
+	... 13 more
+Contains: This can occur for one or more of these reasons:
+Contains: The host name and/or port are incorrect.
+Contains: The server on AGR is not started in debug mode.
+Contains: Communication timeouts in the Debug preferences (under the Java node in the Preferences dialog box) are not long enough.
+Contains: The state of port 7801 on AGR must be LISTENING. If the state of the port is ESTABLISHED, then another debug session is already connected to the port.
+Contains: The "netstat" command line tool can be used to determine port status.
+Contains: A firewall is interfering with the connection.
+Contains: Ensure that these settings are properly made before attempting to attach to the server.
+!SUBENTRY 1 com.ibm.debug.wsa 4 100 2024-05-28 10:39:24.177
+!MESSAGE Attach to server at AGR:7801 failed.
+!STACK 0
+java.lang.Exception: Connection could not be established.
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.handleFailedToAttach(LaunchUtils.java:132)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.jvmAttach(LaunchUtils.java:105)
+	at com.ibm.debug.wsa.internal.launcher.LaunchUtils.createJavaDebugTarget(LaunchUtils.java:55)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.doCreateWSAJavaDebugTarget(WSAJavaDebugTarget.java:732)
+	at com.ibm.debug.wsa.internal.core.WSAJavaDebugTarget.createWSAJavaDebugTarget(WSAJavaDebugTarget.java:675)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:177)
+	at com.ibm.debug.wsa.WSADebugPlugin.createWSADebugTarget(WSADebugPlugin.java:188)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.wsalaunch(MBLaunchConfigurationDelegate.java:118)
+	at com.ibm.etools.mft.debug.internal.MBLaunchConfigurationDelegate.launch(MBLaunchConfigurationDelegate.java:83)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE This can occur for one or more of these reasons:
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE The host name and/or port are incorrect.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE The server on AGR is not started in debug mode.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE Communication timeouts in the Debug preferences (under the Java node in the Preferences dialog box) are not long enough.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE The state of port 7801 on AGR must be LISTENING. If the state of the port is ESTABLISHED, then another debug session is already connected to the port.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE The "netstat" command line tool can be used to determine port status.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE A firewall is interfering with the connection.
+!SUBENTRY 2 com.ibm.debug.wsa 4 4 2024-05-28 10:39:24.177
+!MESSAGE Ensure that these settings are properly made before attempting to attach to the server.
+!SESSION 2024-05-28 10:43:03.666 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 amd64-64 Compressed References 20170406_343211 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR4_20170406_2107_B343211
+JIT  - tr.r13.java_20170406_343211
+GC   - R27_Java727_SR4_20170406_2107_B343211_CMPRSS
+J9CL - 20170406_343211
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -data D:\Arquivos\ARQUIVO\DESENVOLVIMENTO\IIB\calcular_iib\workspaceCalculator -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-28 10:43:05.588
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2024-05-28 10:43:08.247
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-28 10:43:08.250
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-05-28 10:43:08.252
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2024-05-28 10:43:08.783
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:43:10.861
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:43:10.863
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:43:11.609
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:43:11.612
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2024-05-28 10:43:14.459
+!MESSAGE Connection to the URL http://ot4i.github.io/iib-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-28 10:43:14.555
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-28 10:43:14.557
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.9\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-28 10:43:14.895
+!MESSAGE BIP8071I: Comando concluído com sucesso. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-28 10:43:14.898
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2024-05-28 10:43:14.900
+!MESSAGE 
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:55:59.298
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2024-05-28 10:55:59.300
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-28 14:37:05.274
+!MESSAGE Resource '/CalcularCommonSh/gen/CalcularCommonSh/Multiply_Calculator_Multiplicar_CalcularCommomSh.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-28 14:44:39.747
+!MESSAGE Resource '/CalcularCommonSh/CalcularCommonSh/CalcularCommonSh.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-28 14:44:39.750
+!MESSAGE Resource '/CalcularCommonSh/CalcularCommonSh/CalcularCommonSh.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-28 14:44:39.752
+!MESSAGE Resource '/CalcularCommonSh/CalcularCommonSh/CalcularCommonSh.subflow' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2024-05-28 14:44:39.754
+!MESSAGE Resource '/CalcularCommonSh/CalcularCommonSh/CalcularCommonSh.subflow' does not exist.
+
+!ENTRY com.ibm.etools.mft.bar 4 0 2024-05-28 16:11:21.709
+!MESSAGE 
+!SUBENTRY 1 com.ibm.etools.mft.bar 4 4 2024-05-28 16:11:21.709
+!MESSAGE 
+
+Processing file .project
+Failed to add file .project to BAR file.
+/CalcularSh/CalcularSh/Calcular_Compute.esql is in a project that has errors.
+Please correct the errors and try again.
+
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.267
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.269
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.271
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.272
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.273
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:18:59.274
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.jface 2 0 2024-05-28 16:20:58.253
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-28 16:20:58.253
+!MESSAGE A conflict occurred for F5:
+Binding(F5,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.refreshViewCommand,Refresh,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8c12e772,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.StepInto,Step Into,
+		Step into,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@65401496,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.ui.file.refresh,Refresh,
+		Refresh the selected items,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9132fe52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-28 16:20:58.253
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.ibm.msl.mapping.ui.QuickLinkToOutputCommand,Quick Link to Output,
+		,
+		Category(com.ibm.msl.mapping.ui.mapEditingCategory,Mapping,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e5c7ecc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.msl.mapping.ui.mapEditing,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c6377e47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:20:58.255
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7983cf66} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@342a74a0}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:20:58.257
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@995764fe} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@68df1d15}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:25:03.019
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@61eee5b3} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1fb20492}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:25:03.021
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6b0b7bb2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@52b41f61}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:26:59.191
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@16074dfb} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b78b94c6}
+
+!ENTRY org.eclipse.ui 4 4 2024-05-28 16:26:59.193
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d5131ec6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4cc86f49}

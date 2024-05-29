@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="" key="selection"/>
+		<list key="findhistory">
+			<item value="&lt;xsd:import namespace=&quot;http://canonico.calcular.agr.com.br&quot; schemaLocation=&quot;XSD/calcular/v1/Calcular.xsd&quot;/&gt;"/>
+		</list>
+	</section>
+</section>

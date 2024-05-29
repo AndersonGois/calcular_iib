@@ -1,0 +1,73 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		CALL CopyMessageHeaders();
+		CALL CopyEntireMessage();
+		ECLARE origem REFERENCE TO InputRoot.XMLNSC.ns:SomarRequest;
+
+		
+		
+		CASE origem.ns:Calcular.ns1:operacao
+		WHEN '1' THEN
+			PROPAGATE TO TERMINAL 'out1';
+			RETURN FALSE;
+		WHEN '2' THEN
+			PROPAGATE TO TERMINAL 'out2';
+		WHEN '3' THEN
+			PROPAGATE TO TERMINAL 'out3';
+			RETURN TRUE;
+		WHEN '4' THEN
+			CALL Somar();
+			PROPAGATE TO TERMINAL 'out';
+		END CASE;
+		
+		
+		RETURN TRUE;
+	END;
+	
+	CREATE PROCEDURE Somar() BEGIN
+		DECLARE origem REFERENCE TO InputRoot.XMLNSC.ns:SomarRequest;
+		DECLARE destino REFERENCE TO OutputRoot.XMLNSC.ns6:Add;
+		
+		set destino.ns6:intA = origem.ns:Calcular.ns1:intA; 
+		set destino.ns6:intB = origem.ns:Calcular.ns1:intB; 
+	END;
+
+	CREATE PROCEDURE Multiplicar() BEGIN
+		DECLARE origem REFERENCE TO InputRoot.XMLNSC.ns:SomarRequest;
+		DECLARE destino REFERENCE TO OutputRoot.XMLNSC.ns6:Multiply;
+		
+		set destino.ns6:intA = origem.ns:Calcular.ns1:intA; 
+		set destino.ns6:intB = origem.ns:Calcular.ns1:intB; 
+	END;
+
+	CREATE PROCEDURE Dividir() BEGIN
+		DECLARE origem REFERENCE TO InputRoot.XMLNSC.ns:SomarRequest;
+		DECLARE destino REFERENCE TO OutputRoot.XMLNSC.ns6:Divide;
+		
+		set destino.ns6:intA = origem.ns:Calcular.ns1:intA; 
+		set destino.ns6:intB = origem.ns:Calcular.ns1:intB; 
+	END;
+	
+	CREATE PROCEDURE Subtrair() BEGIN
+		DECLARE origem REFERENCE TO InputRoot.XMLNSC.ns:SomarRequest;
+		DECLARE destino REFERENCE TO OutputRoot.XMLNSC.ns6:Subtract;
+		
+		set destino.ns6:intA = origem.ns:Calcular.ns1:intA; 
+		set destino.ns6:intB = origem.ns:Calcular.ns1:intB; 
+	END;
+
+	
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;

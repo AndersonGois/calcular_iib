@@ -1,0 +1,1 @@
+mqsideploy TESTNODE_Anderson -a D:\Arquivos\ARQUIVO\DESENVOLVIMENTO\IIB\calcular_iib\workspaceCalculator\BARfiles\calcular.bar -e SERVER_Anderson -w 120

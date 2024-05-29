@@ -1,9 +1,0 @@
-
-
-Importing file: C:\Users\Anderson\eclipse-workspaceExemplo\ValidarWSDL\Calculator.wsdl
-
-The WSDL import will proceed with bindings CalculatorSoap, CalculatorSoap12.
-Creating wsdl schema document for file:///C:/Users/Anderson/eclipse-workspaceExemplo/ValidarWSDL/Calculator.wsdl.
-Parsing wsdl binding {http://tempuri.org/}CalculatorSoap.
-Parsing wsdl binding input Add.
-Parsing wsdl binding output Add.

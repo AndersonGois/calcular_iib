@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="CalcularSh" version="8.0.5.0" xmlns:map="CalcularSh">
+    <input path="mbsharedlib://CalcularCommonSh/Calculator_InlineSchema1.xsd"/>
+    <output path="/GrcCalculator_InlineSchema1.xsd"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="in" uri="http://tempuri.org/"/>
+        <namespace kind="supplement" prefix="out2" uri="http://canonico.calcular.agr.com.br"/>
+        <namespace kind="supplement" prefix="out" uri="http://webservice.calcular.agr.com.br/Calcular/v1"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="Subtrair_Response_Map">
+        <input namespace="http://tempuri.org/" path="mb:msg(SubtractResponse,assembly,XMLNSC,Properties)" var="MessageAssembly"/>
+        <output namespace="http://webservice.calcular.agr.com.br/Calcular/v1" path="mb:msg(SomarResponse,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_SomarResponse"/>
+        <move>
+            <input path="$MessageAssembly/SubtractResponse/SubtractResult"/>
+            <output path="$ComIbmMessageAssembly_SomarResponse/SomarResponse/Calcular/AddResult"/>
+        </move>
+        <move>
+            <input path="$MessageAssembly/Properties"/>
+            <output path="$ComIbmMessageAssembly_SomarResponse/Properties"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

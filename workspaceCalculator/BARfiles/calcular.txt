@@ -1,0 +1,198 @@
+BIP1052I: Lendo o arquivo Bar utilizando o mqsireadbar do tempo de execu‡Æo...
+calcular.bar:
+  CalcularCommonSh.shlibzip (28/05/24 16:31):
+    CalcularCommonSh\Somar.subflow (28/05/24 16:31):
+    Calculator.xsd (28/05/24 16:31):
+    Calculator_InlineSchema1.xsd (28/05/24 16:31):
+    CalcularCommonSh\Multiplicar.subflow (28/05/24 16:31):
+    CalcularCommonSh\Dividir.subflow (28/05/24 16:31):
+    CalcularCommonSh\Subtracao.subflow (28/05/24 16:31):
+    CalcularCommonSh\Add_Calculator_CalcularCommonSh.subflow (28/05/24 16:31):
+    library.descriptor (28/05/24 16:31):
+    CalcularCommonSh\Multiply_Calculator_Multiplicar_CalcularCommomSh.subflow (28/05/24 16:31):
+    CalcularCommonSh\Divide_Calculator_DividirCommonSh.subflow (28/05/24 16:31):
+    Calculator.wsdl (28/05/24 16:31):
+    CalcularCommonSh\Subtract_Calculator_Subtracao.subflow (28/05/24 16:31):
+    Deployment descriptor:
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.webServiceURL = http://www.dneonline.com/calculator.asmx
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.requestTimeout
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.httpProxyLocation
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.sslProtocol = TLS
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.allowedSSLCiphers
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.requestCompressionType
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.acceptCompressedResponses
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.hostnameChecking
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.keyAlias
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.enableCRLCheck
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.jmsDestination
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.jmsReplyToDestination
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.requestTimeoutJMS
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.initialContextFactory
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.locationJndiBindings
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.connectionFactoryName
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.targetService
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.deliveryMode
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.messagePriority
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.messageExpiration
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.messageType
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.securityProfileName
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.policySet
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.policySetBindings
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.allowMTOM
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.validateMaster = none
+      CalcularCommonSh.Multiply_Calculator_Multiplicar_CalcularCommomSh#Request.validateFailureAction
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.webServiceURL = http://www.dneonline.com/calculator.asmx
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.requestTimeout
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.httpProxyLocation
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.sslProtocol = TLS
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.allowedSSLCiphers
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.requestCompressionType
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.acceptCompressedResponses
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.hostnameChecking
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.keyAlias
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.enableCRLCheck
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.jmsDestination
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.jmsReplyToDestination
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.requestTimeoutJMS
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.initialContextFactory
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.locationJndiBindings
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.connectionFactoryName
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.targetService
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.deliveryMode
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.messagePriority
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.messageExpiration
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.messageType
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.securityProfileName
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.policySet
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.policySetBindings
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.allowMTOM
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.validateMaster = none
+      CalcularCommonSh.Subtract_Calculator_Subtracao#Request.validateFailureAction
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.webServiceURL = http://www.dneonline.com/calculator.asmx
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.requestTimeout
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.httpProxyLocation
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.sslProtocol = TLS
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.allowedSSLCiphers
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.requestCompressionType
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.acceptCompressedResponses
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.hostnameChecking
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.keyAlias
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.enableCRLCheck
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.jmsDestination
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.jmsReplyToDestination
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.requestTimeoutJMS
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.initialContextFactory
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.locationJndiBindings
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.connectionFactoryName
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.targetService
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.deliveryMode
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.messagePriority
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.messageExpiration
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.messageType
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.securityProfileName
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.policySet
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.policySetBindings
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.allowMTOM
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.validateMaster = none
+      CalcularCommonSh.Divide_Calculator_DividirCommonSh#Request.validateFailureAction
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.webServiceURL = http://www.dneonline.com/calculator.asmx
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.requestTimeout
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.httpProxyLocation
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.sslProtocol = TLS
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.allowedSSLCiphers
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.requestCompressionType
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.acceptCompressedResponses
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.hostnameChecking
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.keyAlias
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.enableCRLCheck
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.jmsDestination
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.jmsReplyToDestination
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.requestTimeoutJMS
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.initialContextFactory
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.locationJndiBindings
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.connectionFactoryName
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.targetService
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.deliveryMode
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.messagePriority
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.messageExpiration
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.messageType
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.securityProfileName
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.policySet
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.policySetBindings
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.allowMTOM
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.validateMaster = none
+      CalcularCommonSh.Add_Calculator_CalcularCommonSh#Request.validateFailureAction
+  Calcular.appzip (28/05/24 16:31):
+    application.descriptor (28/05/24 16:31):
+    Calcular.msgflow (28/05/24 16:31):
+    Deployment descriptor:
+      startMode
+      javaIsolation
+      Calcular#additionalInstances
+      Calcular#notificationThresholdMsgsPerSec
+      Calcular#maximumRateMsgsPerSec
+      Calcular#processingTimeoutSec
+      Calcular#processingTimeoutAction
+      Calcular#wlmPolicy
+      Calcular#commitCount
+      Calcular#commitInterval
+      Calcular#coordinatedTransaction
+      Calcular#consumerPolicySet
+      Calcular#providerPolicySet
+      Calcular#consumerPolicySetBindings
+      Calcular#providerPolicySetBindings
+      Calcular#securityProfileName
+      Calcular#monitoringProfile
+      Calcular#startMode
+      Calcular#startInstancesWhenFlowStarts
+      Calcular#SOAP Input.urlSelector = /calculator
+      Calcular#SOAP Input.useHTTPS
+      Calcular#SOAP Input.maxClientWaitTime
+      Calcular#SOAP Input.allowQueryWSDL = yes
+      Calcular#SOAP Input.initialContextFactory
+      Calcular#SOAP Input.locationJndiBindings
+      Calcular#SOAP Input.connectionFactoryName
+      Calcular#SOAP Input.backoutDestination
+      Calcular#SOAP Input.backoutThreshold
+      Calcular#SOAP Input.propertySelector
+      Calcular#SOAP Input.timeStampSelector
+      Calcular#SOAP Input.messageDeliveryModeSelector
+      Calcular#SOAP Input.messagePrioritySelector
+      Calcular#SOAP Input.messageIDSelector
+      Calcular#SOAP Input.messageRedeliveredSelector
+      Calcular#SOAP Input.messageCorrelationIDSelector
+      Calcular#SOAP Input.targetService
+      Calcular#SOAP Input.securityProfileName
+      Calcular#SOAP Input.policySet
+      Calcular#SOAP Input.policySetBindings
+      Calcular#SOAP Input.sendProcessingFaultsToFailure
+      Calcular#SOAP Input.validateMaster = none
+      Calcular#SOAP Input.validateFailureAction
+      Calcular#SOAP Input.componentLevel
+      Calcular#SOAP Input.additionalInstances
+      Calcular#SOAP Reply.allowMTOM
+      Calcular#SOAP Reply.validateMaster
+      Calcular#SOAP Reply.securityProfileName
+  CalcularSh.shlibzip (28/05/24 16:31):
+    CalcularSh/Multiplicar_Response_Map.map (28/05/24 16:31):
+    XSD\calcular\v1\Calcular.xsd (28/05/24 16:31):
+    CalcularSh/GrcCalculator_Calcular_Response_Map.map (28/05/24 16:31):
+    GrcCalculator_InlineSchema1.xsd (28/05/24 16:31):
+    CalcularSh/GrcCalculator_Calcular_Request_Map.map (28/05/24 16:31):
+    GrcCalculator.wsdl (28/05/24 16:31):
+    IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd (28/05/24 16:31):
+    library.descriptor (28/05/24 16:31):
+    CalcularSh\Calcular_Compute.esql (28/05/24 16:31):
+    CalcularSh\Calcular.subflow (28/05/24 16:31):
+    CalcularSh/Subtrair_Response_Map.map (28/05/24 16:31):
+    IBMdefined\soap.xsd (28/05/24 16:31):
+    CalcularSh/Dividir_Response_Map.map (28/05/24 16:31):
+    IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd (28/05/24 16:31):
+    gen\CalcularSh\GrcCalculator_calcular_Compute.esql (28/05/24 16:31):
+    GrcCalculator.xsd (28/05/24 16:31):
+    Deployment descriptor:
+      CalcularSh.Calcular#Compute.dataSource
+      CalcularSh.Calcular#Compute.connectDatasourceBeforeFlowStarts
+      CalcularSh.Calcular#Compute.validateMaster
+
+BIP8071I: Comando conclu¡do com sucesso.

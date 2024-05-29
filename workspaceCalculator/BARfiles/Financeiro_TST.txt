@@ -1,0 +1,32 @@
+#### Financeiro - AvisoTesouraria
+#
+## AppInsight
+#
+# Queues
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaAppInsight#MQIQueueName = ICATU.FINANCEIRO.AVSTESOURA.APPINST.01.REQUEST
+#
+# AppInsight
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaAppInsight#instrumentationEnabled = y
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaAppInsight#instrumentationKey = 332e163c-a4ad-42aa-bc96-d12997162afa
+#
+## Criar | Alterar | Deletar : Aviso Tesouraria
+#
+# Queues
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#MQIQueueName = ICATU.FINANCEIRO.AVSTESOURA.01.REQUEST
+br.com.icatu.financeiro.avisoTesouraria.CriarAvisoTesourariaRequest#MQMDReplyExpiry = 1200
+#
+# Queues App Insight
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#MQOQueueName = ICATU.FINANCEIRO.AVSTESOURA.APPINST.01.REQUEST
+#
+# AppInsight
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#instrumentationEnabled = Y
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#instrumentationKey = 332e163c-a4ad-42aa-bc96-d12997162afa
+#
+# WSRR
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#AvisoTesouraria.ClassificationValue =
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#AvisoTesouraria.name = SI_IBM_GerarPrevisao_OB_S
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#AvisoTesouraria.namespace = http://icatu.com/CLM/GerarPrevisaoTesouraria
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#AvisoTesouraria.portVersion = 1.0
+#
+# Service
+br.com.icatu.financeiro.avisoTesouraria.AvisoTesourariaRequest#AvisoTesouraria.requestTimeout = 60
